@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Section.css';
-import FoodBuzz from '../../../Assets/Images/FoodBuzz.jpg'
+import FoodBuzz from '../images/FoodBuzz.jpg'
 
 // By importing the Section.css file, it is added to the DOM whenever this component loads
 
@@ -59,7 +59,7 @@ function Section() {
             <div id="line3" className="samplebox">
                 <figure className="widehalf four">
                     <div>
-                        <img className="flip four" src="./Assets/Images/Sweeper.jpg" alt="sweeper site">
+                        <img className="flip four" src="./Assets/Images/Sweeper.jpg" alt="sweeper site" />
                         <div className="floatsm">
                             <p className="inside"><a href="https://sweeper-chore-chart.herokuapp.com/">Sweepers</a></p>
                             <p className="inside">Keep It Clean</p>
@@ -68,7 +68,7 @@ function Section() {
                 </figure>
                 <figure className="widehalf four">
                     <div>
-                        <img className="flip four" src="./Assets/Images/Welcome_Screen.jpg" alt="bottled up site">
+                        <img className="flip four" src="./Assets/Images/Welcome_Screen.jpg" alt="bottled up site" />
                         <div className="floatsm">
                             <p className="inside"><a href="https://bottleduptt.herokuapp.com/">Bottled Up</a></p>
                             <p className="inside">Blog It</p>
