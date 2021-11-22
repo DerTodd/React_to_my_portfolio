@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
+import banner from '../images/sunsetpano.png'
 
 // By importing the Header.css file, it is added to the DOM whenever this component loads
 
@@ -11,6 +12,7 @@ import '../styles/Header.css';
 const styles = {
   headerStyle: {
     background: 'blue',
+    backgroundImage: {banner}
   },
   headingStyle: {
     fontSize: '100px',

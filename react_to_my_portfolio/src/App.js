@@ -3,7 +3,7 @@ import './App.css';
 import Form from './components/Form/index';
 import React from 'react';
 import Header from "./components/Header";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 import Card from './components/Card';
 import PortfolioContainer from "./components/PortfolioContainer";
