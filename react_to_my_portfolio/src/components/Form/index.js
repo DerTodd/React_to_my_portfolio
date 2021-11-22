@@ -2,14 +2,14 @@ import React, { useState } from 'react';
 import './style.css';
 
 // Here we import a helper function that will check if the email is valid
-import { checkPassword, validateEmail } from '../../utils/helpers';
+import { validateContactName, validateEmail } from '../../utils/helpers';
 
 function Form() {
   // Create state variables for the fields in the form
   // We are also setting their initial values to an empty string
   const [email, setEmail] = useState('');
-  const [userName, setUserName] = useState('');
-  const [password, setPassword] = useState('');
+  const [contactName, setContactName] = useState('');
+  const [contactBox, setContactBox] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
@@ -18,13 +18,13 @@ function Form() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, username, and password
+    // Based on the input type, we set the state
     if (inputType === 'email') {
       setEmail(inputValue);
-    } else if (inputType === 'userName') {
-      setUserName(inputValue);
+    } else if (inputType === 'contactName') {
+      setContactName(inputValue);
     } else {
-      setPassword(inputValue);
+      setContactBox(inputValue);
     }
   };
 
@@ -33,29 +33,36 @@ function Form() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Email or username is invalid');
+    if (!email || !validateEmail(email)) {
+      setErrorMessage('Please enter an email address');
       // We want to exit out of this code block if something is wrong so that the user can correct it
       return;
       // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
     }
-    if (!checkPassword(password)) {
+    if (!contactName || !validateContactName(contactName)) {
       setErrorMessage(
-        `Choose a more secure password for the account: ${userName}`
+        `Please provide your name.`
       );
       return;
     }
-    alert(`Hello ${userName}`);
+    if (!contactBox) {
+      setErrorMessage(
+        `Please leave a message no longer than 250 characters.`
+      );
+      return;
+    }
+    alert(`Hello ${contactName}, Thank you for contacting me!`);
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
-    setUserName('');
-    setPassword('');
+    setContactName('');
+    setContactBox('');
     setEmail('');
+    setErrorMessage('');
   };
 
   return (
     <div>
-      <p>Hello {userName}</p>
+      <p>Hello {contactName}</p>
       <form className="form">
         <input
           value={email}
@@ -65,20 +72,24 @@ function Form() {
           placeholder="email"
         />
         <input
-          value={userName}
-          name="userName"
+          value={contactName}
+          name="contactName"
           onChange={handleInputChange}
           type="text"
-          placeholder="username"
+          placeholder="contact name"
         />
-        <input
-          value={password}
-          name="password"
+        <textarea
+          value={contactBox}
+          name="contactBox"
           onChange={handleInputChange}
-          type="password"
-          placeholder="Password"
-        />
+          type="text"
+          placeholder="Message Me"
+          maxLength="250"
+          pattern="([a-zA-Z0-9_\-\.]+)"
+        ></textarea>
+        <p>
         <button type="button" onClick={handleFormSubmit}>Submit</button>
+        </p>
       </form>
       {errorMessage && (
         <div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from "../Section";
 
-export default function Blog() {
+export default function Projects() {
   return (
     <div>
       <h1>Projects</h1>
