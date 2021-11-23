@@ -31,7 +31,7 @@ function Section() {
   return (
     <div>
     <section style={styles.sectionStyles} className="container-fluid">
-      <h2>Work</h2>
+      
         <Container id="samples" style={styles.sectionStyles} className="mb-4 bg-light rounded-3">
             
                     <a href="https://dertodd.github.io/Project_one_The_Survivors/index.html"><img src={FoodBuzz} className="img-fluid rounded hover-shadow" /></a>
