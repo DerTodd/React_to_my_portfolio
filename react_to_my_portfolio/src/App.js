@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Form from './components/Form/index';
 import React from 'react';
@@ -7,6 +7,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 import Card from './components/Card';
 import PortfolioContainer from "./components/PortfolioContainer";
+import Todd from './images/Todd_no_clippy.png';
+import ToddClippy from './images/Todd_clippy2.png'
 
 function App() {
   return (
@@ -15,19 +17,13 @@ function App() {
       <PortfolioContainer />
       
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <section className="App-header">
+      <a href="https://drive.google.com/file/d/1xyqQjNHNIQZuEOVL6ZNyeZnLkKxgcTAN/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src={ToddClippy} className="App-logo" alt="logo"/></a>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Resume <code>React</code> download
         </p>
-        <a
-          className="App-link"
-          href="#"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-      </header>
+        
+      </section>
     </div><div>
         <Card />
         

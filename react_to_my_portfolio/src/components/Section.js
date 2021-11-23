@@ -20,7 +20,7 @@ import GitHub from '../images/GitHubMark32px.png'
 
 const styles = {
   sectionStyles: {
-    background: '#BF5700',
+    background: 'white',
     padding: '0',
   },
 };
