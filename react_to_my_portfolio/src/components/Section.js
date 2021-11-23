@@ -34,13 +34,13 @@ function Section() {
       
         <Container id="samples" style={styles.sectionStyles} className="mb-4 bg-light rounded-3">
             
-                    <a href="https://dertodd.github.io/Project_one_The_Survivors/index.html"><img src={FoodBuzz} className="img-fluid rounded hover-shadow" /></a>
+                    <a href="https://dertodd.github.io/Project_one_The_Survivors/index.html" target="_blank" rel="noopener noreferrer"><img src={FoodBuzz} alt='FoodBuzz page' className="img-fluid rounded hover-shadow" /></a>
                     <div className='mask' style={{ 
                         backgroundColor: 'rgba(0, 0, 0, 0.6)', 
                         padding: '0,0,0,0'
                         }}>
         <div className='d-flex justify-content-center align-items-center h-100'>
-          <p className='text-white mb-0'><a href="https://github.com/DerTodd/Project_one_The_Survivors"><img src={GitHub} /></a></p>
+          <p className='text-white mb-0'><a href="https://github.com/DerTodd/Project_one_The_Survivors" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'/></a></p>
         </div>
       </div>
                 
@@ -53,13 +53,13 @@ function Section() {
                 <figure className="col">
                     <div>
                     
-                        <a href="https://dertodd.github.io/whether_weather_TT/"><img src={Weather} alt="Weather App" className="img-fluid rounded hover-shadow" /></a>
+                        <a href="https://dertodd.github.io/whether_weather_TT/" target="_blank" rel="noopener noreferrer"><img src={Weather} alt="Weather App" className="img-fluid rounded hover-shadow" /></a>
                         <div className='mask' style={{ 
                         backgroundColor: 'rgba(0, 0, 0, 0.6)', 
                         
                         }}>
                             <div className='d-flex justify-content-center align-items-center h-100'>
-                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/whether_weather_TT"><img src={GitHub} /></a></p>
+                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/whether_weather_TT" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'/></a></p>
                             </div>
                         </div>
                     </div>
@@ -68,13 +68,13 @@ function Section() {
                 <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
-                        <a href="https://dertodd.github.io/Daily_Planner_TT/"><img className="img-fluid rounded hover-shadow" src={Planner} alt="Day Planner" /></a>
+                        <a href="https://dertodd.github.io/Daily_Planner_TT/" target="_blank" rel="noopener noreferrer"><img className="img-fluid rounded hover-shadow" src={Planner} alt="Day Planner" /></a>
                         <div className='mask' style={{ 
                         backgroundColor: 'rgba(0, 0, 0, 0.6)', 
                         padding: '0,0,0,0'
                         }}>
                             <div className='d-flex justify-content-center align-items-center h-100'>
-                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Daily_Planner_TT"><img src={GitHub} /></a></p>
+                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Daily_Planner_TT" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'/></a></p>
                             </div>
                         </div>  
                     </div>
@@ -85,13 +85,13 @@ function Section() {
                 <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
-                    <a href="https://sweeper-chore-chart.herokuapp.com/"><img className="img-fluid rounded hover-shadow" src={Sweeper} alt="Sweepers Site" /></a>
+                    <a href="https://sweeper-chore-chart.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="img-fluid rounded hover-shadow" src={Sweeper} alt="Sweepers Site" /></a>
                         <div className='mask' style={{ 
                         backgroundColor: 'rgba(0, 0, 0, 0.6)', 
                         padding: '0,0,0,0'
                         }}>
                             <div className='d-flex justify-content-center align-items-center h-100'>
-                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Sweepers_Project_Two"><img src={GitHub} /></a></p>
+                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Sweepers_Project_Two" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'/></a></p>
                             </div>
                         </div>
                     </div>
@@ -100,13 +100,13 @@ function Section() {
                 <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
-                    <a href="https://bottleduptt.herokuapp.com/"><img className="img-fluid rounded hover-shadow" src={Bottled} alt="bottled up site" /></a>
+                    <a href="https://bottleduptt.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img className="img-fluid rounded hover-shadow" src={Bottled} alt="bottled up site" /></a>
                         <div className='mask' style={{ 
                         backgroundColor: 'rgba(0, 0, 0, 0.6)', 
                         padding: '0,0,0,0'
                         }}>
                             <div className='d-flex justify-content-center align-items-center h-100'>
-                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Bottled_Up_TT"><img src={GitHub} /></a></p>
+                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Bottled_Up_TT" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'/></a></p>
                             </div>
                         </div>
                         
@@ -118,13 +118,13 @@ function Section() {
                 <Col lg={true} style={{borderWidth: 8, borderBlockColor: '#BF5700', borderBlockStyle: 'solid'}}>
                 <figure className="col">
                     <div>
-                    <a href="https://dertodd.github.io/Quiz_Time_TT/"><img className="img-fluid rounded hover-shadow" src={Bottled} alt="bottled up site" /></a>
+                    <a href="https://dertodd.github.io/Quiz_Time_TT/" target="_blank" rel="noopener noreferrer"><img className="img-fluid rounded hover-shadow" src={Bottled} alt="bottled up site" /></a>
                         <div className='mask' style={{ 
                         backgroundColor: 'rgba(0, 0, 0, 0.6)', 
                         padding: '0,0,0,0'
                         }}>
                             <div className='d-flex justify-content-center align-items-center h-100'>
-                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Quiz_Time_TT"><img src={GitHub} /></a></p>
+                            <p className='text-white mb-0'><a href="https://github.com/DerTodd/Quiz_Time_TT" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'/></a></p>
                             </div>
                         </div>
                         

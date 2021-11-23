@@ -16,3 +16,10 @@
     background-color: white;
     padding-left: 3px;
   }
+  .centered {
+    text-align: center;
+  }
+  .room {
+    margin-left: 1em;
+    margin-right: 1em;
+  }

@@ -25,21 +25,11 @@ const styles = {
 function Card() {
   return (
     <div style={styles.card}>
-      <div style={styles.heading}>Lorem ipsum dolor</div>
+      <div style={styles.heading}>Todd Taylor</div>
       <div style={styles.content}>
-        `Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-        explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-        quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-        voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
-        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-        voluptas nulla pariatur?`
+        For the past fifteen years, I have been utilizing my technology skills to support teachers and staff in school districts to ensure they have the best opportunities to provide students with excellent learning opportunities.  My varied background provides me with a unique set of skills that include research, problem-solving, coordination, project management, technology support, and customer service.  My positions have provided me with daily opportunities to solve complex problems while also affording me the opportunity to manage a team, create and deliver professional development, and coordinate in-depth projects with vendors.  I have also developed my planning and problem-solving skills through master scheduling, committee coordination, and inventory management.  
+
+I also bring to the table strong computer proficiencies in both software and hardware. I am skilled in many programs including Excel, Adobe Creative Suites (Indesign, Photoshop, After Effects), Camtasia, Final Cut Pro, and Cisco Unified. Through the Full Stack Flex course, I have developed familiarity with Javascript, Git, HTML/CSS, jQuery, Bootstrap, Materialize, API design, JSON, mySQL, Sequelize, Python, Mongo DB, Express, React, and Node.
       </div>
     </div>
   );

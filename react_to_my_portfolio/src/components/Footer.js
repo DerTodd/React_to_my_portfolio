@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Footer.css';
 import Linkedin from '../images/LI-Logo.png'
+import GitHub from '../images/GitHubMark32px.png'
+import Geeks from '../images/Geeks.jpg'
 
 
 // By importing the Navbar.css file, it is added to the DOM whenever this component loads
@@ -16,20 +18,17 @@ const styles = {
     justifyContent: 'flex-end',
   },
 };
-const small = {
-  footerImages: {
-    maxWidth: 15,
-    maxHeight: 15
-  },
-}
+
 
 // We use JSX curly braces to evaluate the style object on the JSX tag
 
 function Footer() {
   return (
-    <footer style={styles.footerStyle} className="footer">
-      <a href="/">Copyright 2021</a>
-      <a href='https://www.linkedin.com/in/todd-taylor-73a952ba'><img src={Linkedin} className='small'/></a>
+    <footer style={styles.footerStyle} className="footer centered">
+      <a href="/" className='room' >Copyright 2021</a>
+      <a href='https://www.linkedin.com/in/todd-taylor-73a952ba' target="_blank" rel="noopener noreferrer"><img src={Linkedin} className='small room'/></a>
+      <a href="https://github.com/DerTodd" target="_blank" rel="noopener noreferrer"><img src={GitHub} alt='GitHub'className="room"/></a>
+      <a href="https://www.geeksforgeeks.org" target="_blank" rel="noopener noreferrer"><img src={Geeks} alt='Geeks'className="room"/></a>
     </footer>
   );
 }

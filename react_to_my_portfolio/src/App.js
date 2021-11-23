@@ -25,7 +25,7 @@ function App() {
         
       </section>
     </div><div>
-        <Card />
+        
         
         
       
