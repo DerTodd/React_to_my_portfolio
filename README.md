@@ -16,15 +16,29 @@
 
   <a name='install'></a>
   ### Installation:
-      https://dertodd.github.io/React_to_my_portfolio/#home
+[React to my Portfolio](https://dertodd.github.io/React_to_my_portfolio/#home)
 
   <a name='usage'></a>
   ### Usage: 
-      Portfolio
+      About Me section with all of my information
+![AboutMe](./Assets/Images/AboutMe.gif)
+
+      Conatact Page so that users can contact me
+![Contact](./Assets/Images/Contact.gif)
+
+      Portfolio Page allows users to see my past projects and access the websites by clicking on the image or seeing the repository by clicking on the github logo
+![Portfolio](./Assets/Images/Portfolio.gif)
+
+      Resume Page allows users to see all my skills and download my resume by clicking on my head.
+![Resume](./Assets/Images/resume.gif)
+
 
   <a name='contri'></a>
   ### Contributions:
-      N/A
+      samkilpatrick903
+      bmalbright
+      mlh19
+
 
   <a name='tests'></a>
   ### Tests
@@ -34,7 +48,8 @@
   ### Contact & Qustions
   If you have any questions, suggestions or concerns, please contact me at:  
   GitHub  
-  https://github.com/DerTodd  
+[GitHub](https://github.com/DerTodd) 
+
   email  
       todd.taylor@utexas.edu  
 
