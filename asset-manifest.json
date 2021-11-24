@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/React_to_my_portfolio/static/css/main.e73a4de7.chunk.css",
+    "main.js": "/React_to_my_portfolio/static/js/main.4a1f1937.chunk.js",
+    "main.js.map": "/React_to_my_portfolio/static/js/main.4a1f1937.chunk.js.map",
+    "runtime-main.js": "/React_to_my_portfolio/static/js/runtime-main.0b5e9991.js",
+    "runtime-main.js.map": "/React_to_my_portfolio/static/js/runtime-main.0b5e9991.js.map",
+    "static/css/2.1dd1e755.chunk.css": "/React_to_my_portfolio/static/css/2.1dd1e755.chunk.css",
+    "static/js/2.a8201513.chunk.js": "/React_to_my_portfolio/static/js/2.a8201513.chunk.js",
+    "static/js/2.a8201513.chunk.js.map": "/React_to_my_portfolio/static/js/2.a8201513.chunk.js.map",
+    "static/js/3.b0137972.chunk.js": "/React_to_my_portfolio/static/js/3.b0137972.chunk.js",
+    "static/js/3.b0137972.chunk.js.map": "/React_to_my_portfolio/static/js/3.b0137972.chunk.js.map",
+    "index.html": "/React_to_my_portfolio/index.html",
+    "static/css/2.1dd1e755.chunk.css.map": "/React_to_my_portfolio/static/css/2.1dd1e755.chunk.css.map",
+    "static/css/main.e73a4de7.chunk.css.map": "/React_to_my_portfolio/static/css/main.e73a4de7.chunk.css.map",
+    "static/js/2.a8201513.chunk.js.LICENSE.txt": "/React_to_my_portfolio/static/js/2.a8201513.chunk.js.LICENSE.txt",
+    "static/media/FoodBuzz.2397eb1e.jpg": "/React_to_my_portfolio/static/media/FoodBuzz.2397eb1e.jpg",
+    "static/media/LI-Logo.a95afc06.png": "/React_to_my_portfolio/static/media/LI-Logo.a95afc06.png",
+    "static/media/Planner.7d13f31e.jpg": "/React_to_my_portfolio/static/media/Planner.7d13f31e.jpg",
+    "static/media/Sweeper.5c04bbe7.jpg": "/React_to_my_portfolio/static/media/Sweeper.5c04bbe7.jpg",
+    "static/media/Todd_clippy2.1b40f154.png": "/React_to_my_portfolio/static/media/Todd_clippy2.1b40f154.png",
+    "static/media/Todd_no_clippy.75ad53fe.png": "/React_to_my_portfolio/static/media/Todd_no_clippy.75ad53fe.png",
+    "static/media/Weather.b6c3309c.png": "/React_to_my_portfolio/static/media/Weather.b6c3309c.png",
+    "static/media/Welcome_Screen.abb68e4d.jpg": "/React_to_my_portfolio/static/media/Welcome_Screen.abb68e4d.jpg",
+    "static/media/moosesnow800.1e6235e4.png": "/React_to_my_portfolio/static/media/moosesnow800.1e6235e4.png",
+    "static/media/rome400.db205998.png": "/React_to_my_portfolio/static/media/rome400.db205998.png",
+    "static/media/Header.css": "/React_to_my_portfolio/static/media/sunsetpano.470961b6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b5e9991.js",
+    "static/css/2.1dd1e755.chunk.css",
+    "static/js/2.a8201513.chunk.js",
+    "static/css/main.e73a4de7.chunk.css",
+    "static/js/main.4a1f1937.chunk.js"
+  ]
+}
